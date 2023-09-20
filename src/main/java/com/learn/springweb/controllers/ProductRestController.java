@@ -53,6 +53,7 @@ public class ProductRestController {
 	
 	public void deleteProduct(@PathVariable("id") int id) {
 		repositry.deleteById(id);
+	
 	}
 
 }
